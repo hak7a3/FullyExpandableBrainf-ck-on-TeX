@@ -1,0 +1,10 @@
+\documentclass{article}
+\usepackage{bf}
+
+\begin{document}
+\tracingmacros=2
+\febfPrepareCatcode
+\edef\foo{\febf{+++++++++[>++++++++>+++++++++++>+++++<<<-]>.>++.+++++++..+++.>-.------------.<++++++++.--------.+++.------.--------.>+.}{}}
+\febfRestoreCatcode
+\show\foo
+\end{document}
